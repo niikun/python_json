@@ -1,6 +1,7 @@
 import json, japanize_matplotlib
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
 
 savefile = "janken_history.json"
 with open(savefile,encoding="utf-8") as f:
